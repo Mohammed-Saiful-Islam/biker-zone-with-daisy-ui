@@ -44,7 +44,7 @@
             <div class="navbar bg-base-100">
                 <div class="flex-1">
                     <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -61,7 +61,7 @@
                     </div>
                     <a class="btn btn-ghost text-xl normal-case lg:text-4xl">Biker Zone</a>
                 </div>
-                <div class="navbar-center  lg:flex">
+                <div class="navbar-center hidden lg:flex">
                     <ul class="menu text-base  menu-horizontal px-1">
                         <li><a>Home</a></li>
                         <li><a>Shop</a></li>
@@ -75,7 +75,7 @@
             </div>
         </nav>
         <!-- slider or carousel -->
-        <div class="carousel w-full lg:h-[550px] bg-bike-primary-bg">
+        <div class=" carousel w-full lg:h-[550px] bg-bike-primary-bg">
             <!-- slide 1 -->
             <div id="slide1" class="carousel-item relative w-full ">
                 <div class="flex flex-col lg:flex-row gap-20 p-4 lg:p-24">
@@ -158,7 +158,7 @@
             </div>
         </div>
     </header>
-    <main class="md:container md:mx-auto">
+    <main class=" md:container md:mx-auto">
         <!-- featured bike -->
         <section>
 
@@ -276,11 +276,11 @@
             </div>
         </section>
         <!-- FAQ -->
-        <section class=" my-24">
+        <section class=" my-24 ">
             <h3 class="text-5xl mb-12 font-semibold text-center">Frequently Asked <span class="text-bike-primary">
                     Questions</span></h3>
-            <div class="hero  ">
-                <div class="hero-content flex-col lg:gap-24 lg:flex-row">
+            <div class="hero">
+                <div class="hero-content flex-col lg:gap-48 lg:flex-row ">
                     <img src="/images/others/faq.png" class="w-3/4 lg:max-w-sm rounded-lg shadow-2xl" />
                     <div>
                         <!-- first question -->
@@ -325,7 +325,8 @@
             </div>
         </section>
     </main>
-    <footer class="footer p-10 bg-neutral text-neutral-content">
+    <!-- footer -->
+    <footer class=" md:container md:mx-auto footer p-10 bg-neutral text-neutral-content">
         <aside>
 
             <p>ACME Industries Ltd.<br />Providing reliable tech since 1992</p>
